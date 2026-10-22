@@ -20,8 +20,7 @@ Flask and FastAPI (learning examples included in this repo)
 
 1. Clone the repo
 
-git clone https://github.com/Areeha548/student-predictor-.git
-
+git clone https://github.com/Areeha548/student-predictor-.git 
 cd student-predictor-
 
 2. Install the libraries
