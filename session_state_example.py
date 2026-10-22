@@ -1,0 +1,19 @@
+import streamlit as st
+
+st.title("Session State Example")
+
+# BAD - counter resets to 0 every time the button is clicked
+counter = 0
+if st.button("Click me (BAD)"):
+    counter += 1
+st.write("Bad counter:", counter)  # always shows 0 or 1
+
+st.markdown("---")
+
+# GOOD - counter survives re-runs
+if "counter" not in st.session_state:
+    st.session_state.counter = 0
+
+if st.button("Click me (GOOD)"):
+    st.session_state.counter += 1
+st.write("Good counter:", st.session_state.counter)
