@@ -30,18 +30,22 @@ pip install -r requirements.txt
 3. Start the app
 
 streamlit run streamlit_app.py
-📁 Project Files
-File	What it does
-streamlit_app.py	The Streamlit web app
-train_model.py	Trains the model and saves it as model.pkl
-main.py	FastAPI version of the prediction API
-main_fast_api.py	FastAPI student CRUD example
-app.py	Flask student CRUD example
-async_example.py	Sync vs async example
-session_state_example.py	Streamlit session state example
-⚠️ Note
+## 📁 Project Files
+
+| File | What it does |
+|---|---|
+| `streamlit_app.py` | The Streamlit web app |
+| `train_model.py` | Trains the model and saves it as `model.pkl` |
+| `main.py` | FastAPI version of the prediction API |
+| `main_fast_api.py` | FastAPI student CRUD example |
+| `app.py` | Flask student CRUD example |
+| `async_example.py` | Sync vs async example |
+| `session_state_example.py` | Streamlit session state example |
+
+## ⚠️ Note
 
 The model is trained on a small sample dataset of 10 students for learning and demo purposes. It is not meant for real academic decisions.
+
 
 👩‍💻 Author
 
